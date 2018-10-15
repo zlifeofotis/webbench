@@ -42,7 +42,7 @@ strncasecmp
 
 getopt_long
 
-pipe
+fork
 
 sigaction
 
@@ -65,5 +65,8 @@ shutdown
 fdopen
 
 setvbuf
+
+父进程与子进程之间的pipe操作
+
 
 
